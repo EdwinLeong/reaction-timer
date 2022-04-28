@@ -16,7 +16,7 @@ export default {
     if (this.score < 500) {
       this.rank = "Ninja Finger!!!";
     } else if (this.score < 400) {
-      this.rank = "Rapid Reflexes";
+      this.rank = "Rapid Reflexes!!!";
     } else {
       this.rank = "Snail Pace.....";
     }
