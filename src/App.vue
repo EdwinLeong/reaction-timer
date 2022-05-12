@@ -1,5 +1,6 @@
 <template>
   <h1>Reaction Timer</h1>
+  <p>Testing.....</p>
   <button @click="onClick" :disabled="isPlaying">play</button>
   <!-- <button @click="onClickTesting('hello world')">Tetsing</button> -->
   <DisplayCard v-if="isPlaying" :delay="delay" @endTime="endGame" />
